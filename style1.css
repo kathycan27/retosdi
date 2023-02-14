@@ -1,0 +1,23 @@
+body {
+    margin: 40px;
+  }
+  
+.box {
+    background-color: #d8b5b5;
+    color: #140909;
+    border-radius: 5px;
+    font-size: 150%;
+    align-items: end;
+    text-align:end;
+   
+  }
+  
+  
+  .wrapper {
+    width: 600px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-flow: column;
+  }
